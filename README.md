@@ -3,12 +3,14 @@ A program written in Python to help with warehouse inventory
 
 When the program starts, it asks the user the name of the file containing the product information and stores it in a dictionary (dict). Where the product code (int) is the key and the payload is a Product type object.
 
-Each product should contains the following information: 
+Each product should contains the following information:
+
   CODE: a unique product code in int type 
   NAME: the name of the product in str type
   CATEGORY: the product category in str type
   PRICE: the price of the product in € float type
   STOCK: the quantity of the items in stock in int type
+  
 The program allows the following commands to makes changes or look up the products information:
   print: Prints all known products in ascending order by product code.
   print a_product_code: Prints the information of the product specified by the code.
